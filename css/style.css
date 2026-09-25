@@ -53,6 +53,16 @@ main {
   color: #ffffff;
 }
 
+.btn-outline-teal {
+  color: #2f6f75;
+  border: 1px solid #2f6f75;
+}
+
+.btn-outline-teal:hover {
+  background-color: #2f6f75;
+  color: #ffffff;
+}
+
 .table-teal th {
   background-color: #2f6f75;
   color: #ffffff;
