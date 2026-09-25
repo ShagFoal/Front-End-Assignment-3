@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Places to visit and walking routes in Astana." />
+    <title>Home | Astana Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 custom-navbar">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-teal" href="index.html">Astana Travel</a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="places.html">Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="prices.html">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="media-queries.html">CSS Demo</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-4 px-sm-2">
+      <section class="p-4 p-md-5 mb-5 rounded-4 bg-light-mint">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 col-12">
+            <h1 class="display-5 fw-bold text-teal mb-3">Discover Astana</h1>
+            <p class="lead mb-4">
+              Visit Baiterek, explore modern architecture, and take a walk through the city centre.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a class="btn btn-teal btn-lg px-4" href="places.html">Explore Places</a>
+              <div class="btn-group" role="group" aria-label="Route actions">
+                <a class="btn btn-outline-secondary" href="prices.html">View Tours</a>
+                <a class="btn btn-outline-secondary" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img
+              src="images/astana.jpeg"
+              alt="A view of Astana skyline"
+              class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5" id="highlights">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="h3 fw-bold text-teal mb-0">Popular Places</h2>
+          <div class="btn-group btn-group-sm" role="group" aria-label="Filter group">
+            <button type="button" class="btn btn-outline-secondary active">All</button>
+            <button type="button" class="btn btn-outline-secondary">Landmarks</button>
+            <button type="button" class="btn btn-outline-secondary">Culture</button>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 shadow-sm border-light-subtle">
+              <img src="images/baiterek.jpeg" class="card-img-top card-thumb" alt="Baiterek monument" />
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h5 card-title fw-bold text-teal">Baiterek</h3>
+                <p class="card-text text-secondary mb-4">
+                  Start in the city centre with one of Astana’s most recognisable landmarks and observation decks.
+                </p>
+                <a href="places.html#baiterek" class="btn btn-teal mt-auto">Discover Baiterek</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 shadow-sm border-light-subtle">
+              <img src="images/khan_shatyr.jpeg" class="card-img-top card-thumb" alt="Khan Shatyr" />
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h5 card-title fw-bold text-teal">Khan Shatyr</h3>
+                <p class="card-text text-secondary mb-4">
+                  Take a break, find something to eat and explore this unique transparent tent-style structure.
+                </p>
+                <a href="places.html#khan-shatyr" class="btn btn-teal mt-auto">Explore Khan Shatyr</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card h-100 shadow-sm border-light-subtle">
+              <img src="images/national_museum.jpeg" class="card-img-top card-thumb" alt="National Museum" />
+              <div class="card-body d-flex flex-column p-4">
+                <h3 class="h5 card-title fw-bold text-teal">National Museum</h3>
+                <p class="card-text text-secondary mb-4">
+                  Explore thousands of years of Kazakh history, archaeological treasures, and contemporary art.
+                </p>
+                <a href="places.html#museum" class="btn btn-teal mt-auto">Visit Museum</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5 mt-lg-4" id="author">
+        <h2 class="h3 fw-bold text-teal mb-4">About the Author</h2>
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-12">
+            <div class="card border-light-subtle shadow-sm p-3">
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  src="images/askhat.jpeg"
+                  alt="Bilyalov Askhat"
+                  class="rounded-circle border border-2 border-teal object-fit-cover author-img"
+                />
+                <div>
+                  <h3 class="h5 fw-bold mb-1 text-teal">Bilyalov Askhat</h3>
+                  <p class="text-secondary mb-0">Frontend Development · SE-2514</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bg text-white py-4 mt-5">
+      <div class="container text-center">
+        <div class="row gy-3">
+          <div class="col-12 col-md-6 text-md-start">
+            <strong class="fs-5">Astana Travel</strong>
+            <p class="small text-white-50 mb-0">Places and routes in Astana.</p>
+          </div>
+          <div class="col-12 col-md-6 text-md-end">
+            <p class="mb-1">Bilyalov Askhat</p>
+            <p class="small text-white-50 mb-0">SE-2514 · 2026</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
