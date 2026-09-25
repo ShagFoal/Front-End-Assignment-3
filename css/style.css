@@ -63,6 +63,27 @@ main {
   color: #ffffff;
 }
 
+.sidebar-card {
+  border-top: 3px solid #2f6f75 !important;
+}
+
+.sidebar-nav a {
+  background-color: #f1f7f8;
+  color: #174b52;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus-visible {
+  background-color: #dcebed;
+  color: #174b52;
+}
+
 .table-teal th {
   background-color: #2f6f75;
   color: #ffffff;
